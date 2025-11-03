@@ -1,11 +1,11 @@
-🚀 Step-by-Step Guide to Build a Serverless File Management System
+**Step-by-Step Guide to Build a Serverless File Management System**
 
-Project Description:
+**Project Description:**
 The Serverless File Management System automates the process of handling file uploads in the cloud. Whenever a user uploads a file to an Amazon S3 bucket, an AWS Lambda function is automatically triggered. This Lambda function extracts file metadata (like file name, size, and upload time) and stores it in Amazon DynamoDB for tracking and analysis. Optionally, an email notification is sent using Amazon SNS.
 
 This project demonstrates a serverless cloud architecture — no servers to manage, only managed services.
 
-💼 Use Cases
+** Use Cases**:-
 
 Automated File Tracking:
 Companies can automatically log every file uploaded to cloud storage — useful for auditing, analytics, or compliance.
@@ -19,9 +19,9 @@ Lambda triggers can initiate ETL jobs or downstream data pipelines (e.g., notify
 Email Notification System:
 Using SNS, stakeholders get notified when new files are uploaded — helpful in multi-user or multi-department environments.
 
-🧱 Project Architecture
+** Project Architecture**
 
-Architecture Components:
+**Architecture Components:**
 
 Amazon S3 — File storage and event source.
 
@@ -33,7 +33,7 @@ Amazon SNS (optional) — Sends email alerts for each new upload.
 
 Amazon CloudWatch — Monitors logs for Lambda executions.
 
-Architecture Flow:
+**Architecture Flow:**
 1️⃣ User uploads file to S3 →
 2️⃣ S3 triggers Lambda →
 3️⃣ Lambda extracts metadata →
@@ -41,13 +41,9 @@ Architecture Flow:
 5️⃣ (Optional) SNS sends notification email →
 6️⃣ Logs are captured in CloudWatch
 
-🧰 Prerequisites
 
-✅ AWS account with permissions for S3, Lambda, DynamoDB, SNS, and CloudWatch
-✅ Basic knowledge of Python and AWS Console
-✅ Installed AWS CLI (optional, for testing)
-
-⚙️ Step-by-Step Deployment
+**
+ Step-by-Step Deployment**
 Step 1 — Create an S3 Bucket
 
 Go to AWS Console → S3 → Create Bucket
@@ -159,17 +155,17 @@ Upload it and wait a few seconds
 
 Step 7 — Verify Outputs
 
-✅ Go to CloudWatch Logs → check Lambda execution logs
-✅ Go to DynamoDB Table → confirm new record added
-✅ Check email inbox (if SNS added) → see upload alert
+ Go to CloudWatch Logs → check Lambda execution logs
+ Go to DynamoDB Table → confirm new record added
+ Check email inbox (if SNS added) → see upload alert
 
-📊 Sample Output Log (CloudWatch)
+ Sample Output Log (CloudWatch)
 Event received: {"Records": [{"eventSource": "aws:s3", "eventName": "ObjectCreated:Put"}]}
 New file uploaded: Banking.csv in bucket: serverless-file-bucket-sid
 Metadata stored successfully
 SNS notification sent successfully!
 
-🧠 Cloud Concepts Demonstrated
+** Cloud Concepts Demonstrated**
 
 Serverless Architecture — Fully managed, auto-scaling, event-driven.
 
@@ -181,13 +177,13 @@ Monitoring & Observability — CloudWatch logs show Lambda execution.
 
 Decoupled Services — Each AWS service operates independently yet integrates seamlessly.
 
-🌍 Real-World Application Example
+**** Real-World Application Example
 
 A Digital Media Company uses this setup to automatically log and notify teams whenever new images, videos, or reports are uploaded by photographers or content creators.
 This ensures automated tracking, centralized metadata management, and instant alerts, improving workflow transparency and reducing manual tracking.
 
-🏁 Final Outcome
+**Final Outcome**
 
-🎯 Automated, secure, and serverless file management pipeline.
-📦 Upload a file → triggers Lambda → stores metadata → sends email.
-💡 Scalable, event-driven, and production-ready design.
+ Automated, secure, and serverless file management pipeline.
+ Upload a file → triggers Lambda → stores metadata → sends email.
+ Scalable, event-driven, and production-ready design.
