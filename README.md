@@ -1,0 +1,2 @@
+# Serverless-File-Management-System-Using-AWS-SERVICES-
+The Serverless File Management System automates the process of handling file uploads in the cloud. Whenever a user uploads a file to an Amazon S3 bucket, an AWS Lambda function is automatically triggered. This Lambda function extracts file metadata (like file name, size, and upload time) and stores it in Amazon DynamoDB for tracking and analysis.
