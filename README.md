@@ -41,14 +41,9 @@ Amazon SNS (optional) — Sends email alerts for each new upload.
 Amazon CloudWatch — Monitors logs for Lambda executions.
 
 
-Architecture Flow:
-1️⃣ User uploads file to S3 →
-2️⃣ S3 triggers Lambda →
-3️⃣ Lambda extracts metadata →
-4️⃣ Metadata is stored in DynamoDB →
-5️⃣ (Optional) SNS sends notification email →
-6️⃣ Logs are captured in CloudWatch
+Architecture Block Diagram:-
 
+![WhatsApp Image 2025-12-10 at 19 25 35_87de039c](https://github.com/user-attachments/assets/fcf3a294-0865-4f91-a154-39a2d3324004)
 
 ## Prerequisites
 
