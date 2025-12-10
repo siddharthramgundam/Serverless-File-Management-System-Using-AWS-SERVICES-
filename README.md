@@ -45,12 +45,6 @@ Architecture Block Diagram:-
 
 ![WhatsApp Image 2025-12-10 at 19 25 35_87de039c](https://github.com/user-attachments/assets/fcf3a294-0865-4f91-a154-39a2d3324004)
 
-## Prerequisites
-
-✅ AWS account with permissions for S3, Lambda, DynamoDB, SNS, and CloudWatch
-✅ Basic knowledge of Python and AWS Console
-✅ Installed AWS CLI (optional, for testing)
-
 
 ## Step-by-Step Deployment
 
@@ -156,7 +150,7 @@ Enable trigger → Save
 
 
 
-Step 5 — Create SNS Topic (Optional)
+Step 5 — Create SNS Topic
 
 Go to SNS → Create Topic → Standard
 
