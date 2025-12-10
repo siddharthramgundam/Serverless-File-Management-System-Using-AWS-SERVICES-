@@ -8,7 +8,7 @@ The Serverless File Management System automates the process of handling file upl
 
 This project demonstrates a serverless cloud architecture — no servers to manage, only managed services.
 
-##Use Cases
+-Use Cases
 
 1. Automated File Tracking:
 Companies can automatically log every file uploaded to cloud storage — useful for auditing, analytics, or compliance.
