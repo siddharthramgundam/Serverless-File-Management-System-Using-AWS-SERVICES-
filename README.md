@@ -44,7 +44,7 @@ Amazon CloudWatch — Monitors logs for Lambda executions.
 
 ## Architecture Block Diagram:-
 
-<img src=".![WhatsApp Image 2025-12-10 at 19 25 35_0a284867](https://github.com/user-attachments/assets/bce3764a-5f68-4164-9c63-eda43bcf88bd)" width="500" height="500">
+<img width="500" height="500" alt="ChatGPT Image Dec 15, 2025, 07_05_43 PM" src="https://github.com/user-attachments/assets/e60f8760-d7ee-457b-b33b-5d573088c895" />
 
 
 
