@@ -38,12 +38,13 @@ Amazon DynamoDB — Stores metadata (file name, size, upload time).
 
 Amazon SNS (optional) — Sends email alerts for each new upload.
 
+
 Amazon CloudWatch — Monitors logs for Lambda executions.
 
 
-Architecture Block Diagram:-
+## Architecture Block Diagram:-
 
-![WhatsApp Image 2025-12-10 at 19 25 35_87de039c](https://github.com/user-attachments/assets/fcf3a294-0865-4f91-a154-39a2d3324004 <img width="500" height="500" alt="ChatGP/>
+<img src=".![WhatsApp Image 2025-12-10 at 19 25 35_0a284867](https://github.com/user-attachments/assets/bce3764a-5f68-4164-9c63-eda43bcf88bd)" width="500" height="500">
 
 
 
