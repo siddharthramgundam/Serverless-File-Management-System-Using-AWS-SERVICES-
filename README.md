@@ -215,6 +215,14 @@ A Digital Media Company uses this setup to automatically log and notify teams wh
 This ensures automated tracking, centralized metadata management, and instant alerts, improving workflow transparency and reducing manual tracking.
 
 
+## Author
+
+**Siddharth Ramgundam**,
+**Email**    ramgundamsiddharth@gmail.com,
+**GitHub**   https://github.com/siddharthramgundam,
+**LinkedIn** https://www.linkedin.com/in/siddharth-ramgundam
+
+
 
 ## Final Outcome
 
